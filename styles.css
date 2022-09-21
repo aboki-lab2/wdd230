@@ -1,0 +1,36 @@
+
+*body{
+    margin: 0;
+list-style-position: inside;
+display: flex;
+}
+
+    .main{
+        margin: 0 auto;
+        width: 500px;
+        color: black;
+        text-align: center;
+        
+    }
+
+    .images-paul{
+        width: 300px;
+        height: 200px;
+        background-size: 200%; 
+        background-repeat: no-repeat ;
+        background-position: center left;
+
+
+    }
+  
+    .my-name {
+        position: absolute;
+            bottom: 400px;
+            left: 70px;
+            color:blue;
+  }
+
+ .content{
+    text-align: auto;
+    color: rgb(60, 0, 255);
+}
