@@ -105,7 +105,7 @@ h1 {
   grid-column: 2/5;
 }
 
-.lesson-content a {
+.lesson-content {
   color: #99e563; 
   font-size: 18px;
   font-weight: 350;
