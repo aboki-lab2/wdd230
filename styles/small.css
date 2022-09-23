@@ -48,6 +48,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   Background: #ffffff;
+  background:  #9dac2dd2;
 }
 
 
@@ -57,15 +58,18 @@ main {
   background: #ffffff;
 }
 
-
+.images-div{
+  background:  #0a9056d2;
+}
 
 .images-paul {
   grid-row: 1;
   grid-column: 1/4;
-  background:  #9dac2dd2; 
   border-radius: 14px;
   border-style: solid;
   border-color: white;
+  width:100px; 
+  height: auto;
 }
 
 .images-paul img {
