@@ -14,7 +14,7 @@ body {
 /* FONTS & STYLES */
 
 h1 {
-  font-family: 'montserrat', serif;
+  font-family: 'Montserrat', sans-serif;
   color: #555358; 
   font-size: 40px;
   margin-top: 10px;
@@ -61,7 +61,7 @@ main {
 
 .images-paul {
   grid-row: 1;
-  grid-column: 2/5;
+  grid-column: 1/4;
   background:  #9dac2dd2; 
   border-radius: 14px;
   border-style: solid;
@@ -74,7 +74,7 @@ main {
   margin: 1em 1em 1em 1em;
   padding: 0px;
   justify-self: right;
-  border-radius: 14px;
+  border-radius: 12px;
   box-shadow: 2px 2px 4px #121d4d; 
 
 
