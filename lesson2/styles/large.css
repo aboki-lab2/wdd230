@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
     div {
         float: left;
-        background: red;
+       /* background: red;*/
     }
 
 }
