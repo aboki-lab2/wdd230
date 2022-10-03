@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
+
+
+
+body {
+  font-size: 14px;
+  font-family: "monserrat", Helvetica, sans-serif;
+  background-color: gray;
+}
+
+header{
+  padding: .6rem 5%;
+  background-color: blue;
+  display: flex;
+    color: white;
+}
+
+header div {
+  margin-left: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header h2 {
+  margin: 0; 
+  padding-top:5px, 5px;
+  font-size: 1.5rem;
+}
+
+header div img {
+  width: 80%;
+  height: 100;
+}
+
+
+nav {
+  background-color: gray
+  
+}
+  
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li a {
+  display: block;
+  color:yellowgreen;
+  text-align: center;
+  padding: 0.91rem;
+  text-decoration: none;
+  font-size: 0.80rem;
+}
+
+nav a:hover {
+  background-color: grey;
+  color: purple;
+  font-weight: bold;
+}
+
+
+
+/*-------------Main-------------*/
+main {
+  padding: 0 2%;
+  /*display: grid;
+  grid-template-columns: 1fr;*/
+  font-size: 1rem;
+  color:white;
+}
+  
+main section {
+  margin: 0.5rem;
+  border: 1px solid;
+  padding: 0 1rem;
+  background-color:gray;
+}
+  
+main section:nth-child(2) {
+  display: none;
+  margin: 0.5rem;
+}
+  
+
+/*---------Color-------------*/
+.colors {
+  border-collapse: collapse;
+  margin: 15px;
+}
+
+.colors tr td { 
+  border:1px solid #000000;
+  padding: 6px;
+  text-align: center;
+  vertical-align: bottom;
+  width: 100px;
+}
+
+.colors tr {
+  height: 200px;
+  width: 200px;
+}
+
+
+footer  {
+  padding: .5rem 2%;
+  background-color: goldenrod;
+  text-align: center;
+  color: white;
+}
+
+  
+
+
+
+
+
+
+

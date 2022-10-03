@@ -1,0 +1,44 @@
+@media only screen and (min-width: 37.5em) {
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%;}
+
+    nav a {
+		font-size: 1rem;
+	}
+
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    header,
+    footer {
+      border-radius: 10px;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    main section:nth-child(2) {
+      display: block;
+    }
+  
+    main section:nth-child(3) {
+      grid-column: span 2;
+    }
+
+    main section img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
