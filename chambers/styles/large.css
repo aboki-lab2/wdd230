@@ -1,0 +1,22 @@
+@media screen and (min-width: 480px) {
+    div {
+        float: left;
+       /* background: red;*/
+    }
+
+}
+@media (min-width: 1236px) {
+    main{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .one{
+      grid-column: 1 / 2;
+    }
+    .two{
+      grid-column: 2 / 3;
+    }
+    .three{
+      grid-column: 3 / 4;
+    }
+  }

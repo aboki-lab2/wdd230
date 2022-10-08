@@ -1,0 +1,258 @@
+
+body {
+	background-color: rgb(109, 99, 109);
+	font-family: 'montserrat', sans-serif;
+	padding: 1.5em;
+	font-size: 30px;
+	margin: auto;
+	color: #000000;
+  }
+
+header {
+	background-color: #fff;
+	padding: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-right: 0.76rem;
+}
+
+.logo{
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.social {
+	margin-right: 1.5rem;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
+}
+
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 1.5rem;
+		margin: 0;
+	}
+
+	.m {
+		letter-spacing: 1pt;
+		font-size: 0.9rem;
+	}
+}
+
+
+  .title {
+	grid-column: 2/5;
+	grid-row: 1;
+	text-align: left;
+	text-shadow: 2px 2px 4px #1c0696;
+	padding-top: 2.5em;
+	margin-left: 2em;
+	/*color: rgb(22, 123, 79); */
+  
+  }
+  /* FONTS & STYLES */
+  
+  h1 {
+	font-family: 'Montserrat', sans-serif;
+	/*color: rgb(83, 5, 26); */
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 32px;
+	text-align: center;
+  }
+  
+  h2 {
+	font-family: 'montserrat', serif;
+	color: white; 
+	font-size: 25px;
+	text-align: center;
+  }
+  
+  
+  p {
+	font-family: 'montserrat', serif;
+	color: #555358; 
+	font-size: 25px;
+	font-weight: 400;
+  }
+  
+  
+  header {
+	color: white; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	Background: #ffffff;
+	background:  #0e027bd2;
+  }
+  
+  
+  main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background: #ffffff;
+  }
+  
+  img {
+	
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  
+  /* Class Selectors ***************/
+  .col1,
+  .col2,
+  .col3 {
+	background-color: rgb(184, 174, 174);
+	border: 1px solid;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	margin: 0.5em;
+  }
+  .images-div{
+	background:  #0a9056d2;
+  }
+  
+  .images-paul {
+	grid-row: 1;
+	grid-column: 1/4;
+	border-radius: 14px;
+	border-style: solid;
+	border-color: white;
+	width:100px; 
+	height: auto;
+  }
+  
+  .images-paul img {
+	grid-column: 2;
+	grid-row: 1;
+	margin: 1em 1em 1em 1em;
+	padding: 0px;
+	justify-self: right;
+	border-radius: 12px;
+	box-shadow: 2px 2px 4px #121d4d; 
+  
+  
+  
+  }
+  
+  footer {
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+	color: #ffffff;
+  
+  
+  }
+  
+  footer p{
+	grid-row: 6;
+	grid-column: 1/6;
+	background: #1d0e34; 
+	text-align: justify;
+	border-radius: 14px;
+	padding: 1.5em;
+	font-size: 18px;
+	color: #ffffff;
+  }
+  
+  
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #536878;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+.image {
+	box-shadow: 0 0 30px #333;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}

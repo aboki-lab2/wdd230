@@ -1,23 +1,16 @@
-const date1 = document.querySelector("#date1");
+// select the elements to manipulate (output to)
+const datefield = document.querySelector(".date");
+const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 
-try {
-	const options = {
-		day: "numeric",
-		month: "numeric",
-		year: "numeric"
-	};
-	date1.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
-} catch (e) {
-	alert("Error with FULL DATE code or your browser does not support Locale");
-}
+// derive the current date using a date object
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now
+);
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(now);
+// long, medium, short options ... try them
 
-const copyYr = document.querySelector("#copyYr");
-// Try to complete the method with options
-try {
-	const options = {
-		year: "numeric"
-	};
-	copyYr.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
-} catch (e) {
-	alert("Error with CURRENT YEAR code or your browser does not support Locale");
-}
+datefield.innerHTML = `<em>${fulldate}</em>`;
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
