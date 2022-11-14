@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="lazy loading.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Paul C Arungwa </title>
+</head>
+<body>
+    <main>
+        <h1> Progressive loading(images)</h1>
+        <section>
+            <h2 class="stdlf">Barranquilla Columbia Temple</h2>
+        
+            <div class="container stdlf">
+        
+                <figure>
+                    <img class="hover" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>:hover pseduo-class | box-shadow</figcaption>
+                </figure>
+                <figure><img class="rocorn" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>border-radius (15px 150px)</figcaption>
+                </figure>
+                <figure><img class="opac" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
+                    <figcaption>opacity (.5)</figcaption>
+                </figure>
+                <figure><img class="blur" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>filter: blur at 4px</figcaption>
+                </figure>
+                <figure><img class="gray" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>filter: blur (1px) and grayscale (50%)</figcaption>
+                </figure>
+                <figure><img class="object" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>object-fit<br><br>⚙️ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">More on Object Fit from Layout Land</a></figcaption>
+                </figure>
+                <figure><img class="contrast" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>filter: contrast (50%)</figcaption>
+                </figure>
+                <figure><img class="saturate" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>filter: saturate(50%)</figcaption>
+                </figure>
+                <figure><img class="shape-outside" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>shape-outside<br><br> Applied with a border-radius and a reduced width. The shape-outside property may not be supported in your browser. Consult <a href="https://caniuse.com/#search=shape-outside" target="_blank">CanIUse</a> to check the support status.
+                    </figcaption>
+                </figure>
+                <figure><img class="mbm-difference" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>mix-blend-mode: difference</figcaption>
+                </figure>
+                <figure><img class="mbm-hard-light" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
+                    <figcaption>mix-blend-mode: hard-light</figcaption>
+                </figure>
+                
+            </div>
+            
+        </section>
+        <section class="mosaic">
+            <img src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" alt="">
+            <div class="pic">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyYr"></span> Paul C. Arungwa | Abia State - Nigeria | Last Updated: <span id="date1"></span></p>
+      </footer>
+      <script src="lazyload.js"></script>
+      </body>
+      </html>
