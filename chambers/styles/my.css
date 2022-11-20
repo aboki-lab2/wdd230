@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	margin: 0;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	width: 475px;
+	background-color: #abe;
+}
+
+form {
+	display: grid;
+	grid-gap: 0.25rem;
+	grid-template-columns: 1fr 1fr;
+	width: 425px;
+	align-items: center;
+}
+
+h1 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+	padding: 0.35rem;
+	font-size: 1.1rem;
+}
+
+label {
+	text-align: right;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	background-color: #bed;
+}
+
+#message {
+	display: none;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: #aa3333;
+	color: #fff;
+	padding: 0.5rem;
+}
+
+#message,
+button {
+	grid-column: 1/2;
+}
+
+#password:invalid {
+	background-color: lightcoral;
+	animation: shaketext 500ms;
+}
+
+input:valid + input::before {
+	content: "👍🏼";
+}
+
+@keyframes shaketext {
+	25% {
+		transform: translateX(3px);
+	}
+	50% {
+		transform: translateX(-3px);
+	}
+	75% {
+		transform: translateX(3px);
+	}
+}

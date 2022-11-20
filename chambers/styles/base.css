@@ -1,4 +1,114 @@
 
+  /* -----------------main--------------------------- */
+  .container {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: 40vh 20vh 30vh 160px 250px;
+      gap: 2px;
+  }
+  /* hero */
+  .hero {
+      grid-column: 1/3;
+      grid-row: 1/4;
+  }
+  .hero img {
+      width: 20%;
+      height: 70px;
+      object-fit: cover;
+  }
+  .hero button {
+      right: 10px;
+  }
+  /* news */
+  .news {
+      grid-column: 1/3;
+      
+  }
+  /* spotlight */
+  .spotlight {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      display: grid;
+      grid-template-columns: 2fr 2fr ;
+      grid-template-rows: 10px;
+      margin: 0;
+  }
+  .spotlight_1 h2 {
+      font-size: 20px;
+
+  }
+
+p {
+    font-size: 10px;
+    
+}
+  .spotlight_1 img {
+      width: 60%;
+  }
+  /* join */
+  .join {
+      display: block;
+      grid-column: 1/3;
+      grid-row: 4/5;
+      background-color: #052872;
+      text-align: center;
+      padding: 25px;
+  }
+  .join button {
+      font-family: "poppins";
+      border: none;
+      background-color: #ac3c61;
+      color: #211d2b;
+      padding: 5px 5px;
+      width: 20%;
+      margin-top: 5px;
+      border-radius: 5px;
+      font-size: 20px;
+  }
+  .join button:hover {
+      background-color: #240973;
+      color: #271c48;
+  }
+  .join p {
+      margin-top: 20px;
+  }
+  /* weather */
+  .weather {
+      background-color: #26086b;
+      text-align: center;
+      text-overflow: clip;
+  }
+  .weather_line img {
+    width: 20%;
+}
+.events{
+  background-color: #6641d5;
+
+}
+
+.lastModified{
+  font-size: 10px;
+}
+  /* --------------------------footer-------------------------------- */
+  footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+  }
+  .information {
+      text-align: left;
+  }
+  .footer_logo {
+      width: 100px;
+  }
+  .contact_info {
+      text-align: right;
+  }
+  .footer_line {
+      grid-column: 1/3;
+  }
+  
+
 body {
 	padding: 0;
 	margin: 0;
@@ -52,6 +162,17 @@ header {
 	width: 25px;
 	height: auto;
 }
+.headerdate {
+  display: block;
+  background-color: #f4e9e3;
+  color: #d59c41;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+  margin: 15px 0;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
 
@@ -177,7 +298,7 @@ main section:nth-child(2) {
 }
   
 
-/*---------Color-------------*/
+
 .colors {
   border-collapse: collapse;
   margin: 15px;
@@ -208,6 +329,7 @@ footer  {
 
 
 
+
 /* Larger viewports */
 @media only screen and (min-width: 32.5em) {
 	header img {
@@ -227,9 +349,98 @@ footer  {
 
 #lastModified {
 	text-align: center;
-	font-size: smaller;
+	font-size: 10px;
 }
 
 
 
+body {
+	padding: 0;
+	margin: 0;
 
+box-sizing: border-box;
+font-size:20px;
+line-height:1.6;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,
+"segoe UI", Roboto, Helvetica,'Segoe UI Emoji' Segoe UI symbol,;
+}
+*, *::before, *:after{
+  box-sizing: green;  
+  padding:0;
+  margin: 0; 
+}
+  main{
+    margin: 1rem  auto;
+    width: 90%;
+    max-width: 1000px
+  }
+  select,option,input,label,button{
+    padding:0.2rem, 1 rem;
+    font-size: 1.2rem;
+    color:blue;
+  }
+    .form-box{
+        padding: 0.5rem 0;
+        display:flex;
+        flex-direction:column;
+    }
+    .form-box label{
+     display: none;
+}
+.form-box input,
+.form-box select,
+.form-box textarea{
+    flex-basis: 100%;
+}
+.form-box button{
+    margin-left: 6rem;
+}   
+/*************************
+Media Queries
+**************************/
+@media all and (min-width:500) {
+    .form-box{
+        flex-direction: row;
+    }
+    .form-box label{
+        flex-basis: 9rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+        
+    }
+    .form-box input,
+    .form-box select,
+    .form-box textarea{
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .form-box button{
+        margin-left: 9rem;
+
+    }
+}
+
+@media all and (min-width:600) {
+    .form-box{
+        flex-direction: row;
+    }
+    .form-box label{
+        display: block
+    }
+    .form-box input,
+    .form-box select,
+    .form-box textarea{
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .form-box button{
+        margin-left: 9rem;
+    }
+}
+    
+
+
+  

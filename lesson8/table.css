@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
+
+  table {
+    border-collapse: collapse;
+    border: 5px solid rgb(149, 11, 11);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+
+  td, th {
+    border: 1px solid rgb(33, 1, 81);
+    padding: 20px 20px;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  caption {
+    padding: 20px;
+  }
+ 

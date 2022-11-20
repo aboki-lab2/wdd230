@@ -75,3 +75,10 @@ numVisits++;
 localStorage.setItem("visits-ls", numVisits);
 // show todays date.
 todayDisplay.textContent = Date.now();
+// -------------------hamburguer-----------------------------
+function toggleMenu() {
+	document.getElementById("primaryNav").classList.toggle("open");
+}
+
+const x = document.getElementById("hamburguer")
+x.onclick = toggleMenu;

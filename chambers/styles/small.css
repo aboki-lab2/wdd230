@@ -1,0 +1,93 @@
+body {
+	padding: 0;
+	margin: 0;
+
+box-sizing: border-box;
+font-size:20px;
+line-height:1.6;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,
+"segoe UI", Roboto, Helvetica,'Segoe UI Emoji' Segoe UI symbol, 
+color#878787;
+}
+*, *::before, *:after{
+  box-sizing: inherit;  
+  padding:0;
+  margin: 0; 
+}
+  main{
+    margin: 1rem  auto;
+    width: 90%;
+    max-width: 1000px
+  }
+  select,option,input,label,button{
+    padding:0.2rem, 1 rem;
+    font-size: 1.2rem;
+    color:inherit;
+  }
+    .form-box{
+        padding: 0.5rem 0;
+        display:flex;
+        flex-direction:column;
+    }
+    .form-box label{
+     display: none;
+}
+.form-box input,
+.form-box select,
+.form-box textarea{
+    flex-basis: 100%;
+}
+.form-box button{
+    margin-left: 6rem;
+}   
+/*************************
+Media Queries
+**************************/
+@media all and (min-width:500) {
+    .form-box{
+        flex-direction: row;
+    }
+    .form-box label{
+        flex-basis: 9rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+        
+    }
+    .form-box input,
+    .form-box select,
+    .form-box textarea{
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .form-box button{
+        margin-left: 9rem;
+
+    }
+}
+
+@media all and (min-width:600) {
+    .form-box{
+        flex-direction: row;
+    }
+    .form-box label{
+        display: block
+    }
+    .form-box input,
+    .form-box select,
+    .form-box textarea{
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .form-box button{
+        margin-left: 9rem;
+    }
+}
+    
+
+
+  
+
+  
