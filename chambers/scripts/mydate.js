@@ -1,4 +1,3 @@
-
 // -------------todays date - HEADER 08/11/2022-----------
 // select the elements to manipulate (output to)
 const datefieldUK = document.querySelector(".todaysdate"); // for european/family history format with day first. 
