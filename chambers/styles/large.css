@@ -1,22 +1,131 @@
-@media screen and (min-width: 480px) {
-    div {
-        float: left;
-       /* background: red;*/
-    }
-
-}
-@media (min-width: 1236px) {
-    main{
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  
-    .one{
-      grid-column: 1 / 2;
-    }
-    .two{
-      grid-column: 2 / 3;
-    }
-    .three{
-      grid-column: 3 / 4;
-    }
+@media only screen and (min-width: 1050px) {
+  /* -------------------------------header--------------------------------- */
+  nav button {
+      display: none;
   }
+  nav ul {
+      display: flex;
+      margin-left: 25%;
+      gap: 30px;
+      font-size: 20px;
+  }
+  nav ul li a {
+      border-top: none;
+  }
+  /* --------------------------------main---------------------------------- */
+  .container {
+      grid-template-columns: 18% 60% 20%;
+      grid-template-rows: 35vh 20vh 200px;
+      margin: 15px;
+  }
+  /* hero */
+  .hero {
+      grid-column: 2/3;
+      grid-row: 1/3;
+  }
+  .hero img {
+      height: 55vh;
+  }
+  /* events */
+  .events {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      padding: 10px;
+  }
+  .events p {
+      font-size: 16px;
+  }
+  /* weather */
+  .weather {
+      grid-column: 1/2;
+      grid-row: 2/3;
+  }
+  .weather p {
+      font-size: 13px;
+  }
+  /* join */
+  .join {
+      grid-column: 1/2;
+      grid-row: 3/4;
+  }
+  /* news */
+  .news {
+      grid-column: 2/3;
+      grid-row: 3/4;
+  }
+  /* spotlight */
+  .spotlight {
+      grid-column: 3/4;
+      grid-row: 1/4;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 100%;
+      padding: 5px;
+      gap: 5px;
+  }
+  /* spotlight_1 */
+  .spotlight_1 img {
+      width: 100px;
+  }
+  .spotlight_1 {
+      font-size: 19px;
+  }
+   .spotlight_2  {
+    font-size: 19px;
+}
+  
+  .spotlight_1, .spotlight_2 p {
+      font-size: 12px;
+  }
+  /* spotlight_2 */
+  .spotlight_2 img {
+      width: 110px;
+  }
+  
+  hr {
+      display: none;
+  }
+  .footer_line {
+      display: flex;
+      margin: 0 auto;
+      padding-top: 5px;
+  }
+  /* ---------------------------------------------discover page-------------------------------- */
+  .discover_container {
+      display: grid;
+      grid-template-columns: 1.5fr 300px;
+      gap: 10px;
+  }
+  .information {
+      grid-template-columns: 1fr;
+  }
+  .density img {
+      width: 600px;
+      margin-left: 100px;
+  }
+  .image_gallery h2 {
+      padding-left: 40px;
+  }
+  /* --------------------------------------Join Page------------------------------------------- */
+  .join {
+      grid-column: 1/2;
+      grid-row: 3/4;
+  }
+  .join button {
+      font-size: 20px;
+  }
+  .join_page {
+      padding: 20px 120px;
+  }
+  /* -----------------------------------Thanks page--------------------------------------------- */
+  .thankyou_button{
+      margin-left: 41%;
+  }
+  /* -------------------------------------directory-------------------------------------------- */
+  .directory_container.list section{
+      display: grid;
+      grid-template-columns: repeat(auto, minmax(350px, 450px));
+      grid-template-rows: 1fr 1fr;
+      text-align: center;
+  }
+
+} 

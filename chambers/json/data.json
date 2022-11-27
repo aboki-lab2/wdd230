@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership":"Bronze Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "silver Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Brigham Young University Idaho",
+            "location": "Provo, UT 84602, USA",
+            "telephone": "Call or Text: 801-422-4636",
+            "image id": "wdd230/images/logo.jpg",
+            "website": "https://www.byu.edu/admissions",
+            "membership": "silver Membership"
+        }
+    ]
+}

@@ -1,83 +1,152 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Discovery journey</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link rel="stylesheet" type="text/css" href="styles/base.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/medium.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/large.css"/>
-    <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="large.css" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>Directory</title>
 </head>
-<body >
-  <main>
-        <section>
-        <h2 class="stdlf">Discover us</h2>
-    
-        <div class="container stdlf">
-    
-            <figure>
-                <img class="hover" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>:hover pseduo-class | box-shadow</figcaption>
-            </figure>
-            <figure><img class="rocorn" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>border-radius (15px 150px)</figcaption>
-            </figure>
-            <figure><img class="opac" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
-                <figcaption>opacity (.5)</figcaption>
-            </figure>
-            <figure><img class="blur" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>filter: blur at 4px</figcaption>
-            </figure>
-            <figure><img class="gray" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>filter: blur (1px) and grayscale (50%)</figcaption>
-            </figure>
-            <figure><img class="object" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>object-fit<br><br>⚙️ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">More on Object Fit from Layout Land</a></figcaption>
-            </figure>
-            <figure><img class="contrast" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>filter: contrast (50%)</figcaption>
-            </figure>
-            <figure><img class="saturate" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>filter: saturate(50%)</figcaption>
-            </figure>
-            <figure><img class="shape-outside" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>shape-outside<br><br> Applied with a border-radius and a reduced width. The shape-outside property may not be supported in your browser. Consult <a href="https://caniuse.com/#search=shape-outside" target="_blank">CanIUse</a> to check the support status.
-                </figcaption>
-            </figure>
-            <figure><img class="mbm-difference" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>mix-blend-mode: difference</figcaption>
-            </figure>
-            <figure><img class="mbm-hard-light" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg" loading="lazy" width="250" height="167">
-                <figcaption>mix-blend-mode: hard-light</figcaption>
-            </figure>
-            
-        </div>
-        
-    </section>
-      
-        <section>
-          	<div id="lastModified"></div>
-            <h1>📅 Using localStorage</h1>
-	<p>This demonstration page keeps track of the total number of visits by user utilizing the localStorage option of the Web Storage API.</p>
+<body>
+    <header>
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <h1>Thank You for visiting. Get to know more about this organization</h1>
+        <div id="formatted-date">24/11/2022</div>
+        <div class="social_media">
+            <a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="15px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                  <path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#3B5998" />
+                  <path d="M22,32V20h4l1-5h-5v-2c0-2,1.002-3,3-3h2V5c-1,0-2.24,0-4,0c-3.675,0-6,2.881-6,7v3h-4v5h4v12H22z" fill="#FFFFFF" id="f" />
+                </g>
+            </svg></a>
+            <a href="https://linkedin.com"><svg height="15px" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="15px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="g5891">
+                  <path d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z" id="background" style="fill:#2867b2;" />
+                  <g id="shapes">
+                    <rect height="257.962" id="rect11" style="fill:#fff;" width="85.76" x="61.053" y="178.667" />
+                    <path d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z" id="path13-0" style="fill:#fff;fill-rule:nonzero;" />
+                    <path d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z" id="path15" style="fill:#fff;fill-rule:nonzero;" />
+                  </g>
+                </g>
+              </svg></a>
+        <nav>
+            <button id ="hamburguer">☰</button>
+            <ul id="primaryNav">
+              <li class="nav_menu_item"><a href="discover.html" class="nav-link">Discover</a></li>
+              <li class="nav_menu_item"><a href="directory.html" class="nav-link">Directory</a></li>
+              <li class="nav_menu_item"><a href="join.html" class="nav-link">Join</a></li>
+              <li class="nav_menu_item"><a href="index.html" class="nav-link">Home</a></li>
+              <li class="nav_menu_item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+              </ul>
+        </nav>
+        <div id="banner"></div>
+    </header>
+    <main class="discover_main">
+        <section class="discover_container">
+            <div class="demograph">
+                <div class="information">
+                    <h2 class="title">The growth of Aba City Chambers of Commerce</h2>
+                    <p>The Aba City Chamber of Commerce & Industry is an Aba city area non-profit that promotes, supports 
+                        or opposes legislative or other measures affecting trade, industry, commerce and agriculture 
+                        as well as representing the opinion of the Aba business community on the above matters in 
+                        particular, and the economy as a whole. It boasts over 3,000 members.
+                        Founded on December 5, 1888, it was incorporated in 1950 as a non-profit 
+                        making organization, Limited by Guarantee under the Companies Act of 1948. 
+                        The Aba City Chamber of Commerce is the pioneer chamber of commerce in Nigeria.[1]
+                        Its prestigious Commerce House building which houses its offices is located 
+                        at No.5 High Court Road Aba</p>
+                    <div class="summary">
+                        <div class="information">
+                            Founded	1888 (134 years ago)
+                            <h3>What to know about the Chambers of Commerce</h3>
+                            <p>The chamber was established in 1888(134 years ago)</p>
+                        </div>
+                    </div>
+                
+          
+                        <div class="chamber_goals">
+                            <h3>The chamber focuses on Business advocacy and federation</h3>
+                            <p>More Nigerians are being lifted through this</p>
+                        </div>
+                        <div class="structure">
+                            <h3>The business conducted by this organization is best suited for people trying to rise above the poverty index</h3>
+                        </div>
+                </div>
+            </div>
+            <div class="image_gallery">
+                <h2>Image Gallery</h2>
+                <div class="img_container">
+                    <picture>
+                        <img class="images" src="images/award.jpg" alt="award">
+                        <div class="img_card">
+                            <h3> Award and Honour</h3>
+                            <p>This organization has given several awards and honour to numerous members and top businesses that incoporate the extant values and principles of this organization</p>
+                        </div>
+                    </picture>
+                    <picture>
+                        <img class="images" src="images/cassava.jpg" alt="cassava">
+                        <div class="img_card">
+                            <h3>Agricultural Products</h3>
+                            <p>We partner with farmers to produce life saving stable food such as Cassava, yam and other economic crops to save lives and make food export possible for the host country </p>
+                        </div>
+                    </picture>
+                    <picture>
+                        <img class="images" src="images/temple.jpg" alt="temple">
+                        <div class="img_card">
+                            <h3>Religious life of the people</h3>
+                            <p>We partner with religious leaders especially the Church of Jesus Christ of Later-day saints to use their self-reliance policy to encourage the members to participate in our program</p>
+                        </div>
+                    </picture>
+                    <picture>        
+                        <img class="images" src="images/people.jpg" alt="people">
+                        <div class="img_card">
+                            <h3>Unbiased Approach to work</h3>
+                            <p> Our program and services touches live and livelihood and as such we meet and work with people from various races and ethnic origin to bless lives and encourage oneness in progress</p>
+                        </div>
+                    </picture>
+                    <picture>
+                        <img class="images" src="images/paul6.jpg" alt="paul">
+                        <div class="img_card">
+                            <h3>Quick and Effective service delivery</h3>
+                            <p>Our avalanche of seasoned economist and techinical partners are always ready to colloborate even with you to solve daunting problems</p>
+                        </div>
+                    </picture>
+                </div> 
+            </div>
+            <p>Your last visit was: <span id="visit"></span>  days ago</p>
+    </main>
+    <footer>
+      <div class="information">
+          <img class="footer_logo" src="images/logo.jpg" alt="footer_logo">
+          <h3>Aba City Chamber of Commerce</h3>
+      </div>
+      <div class="contact_info">
+          <p>#5 High Court Road Osisioma Aba</p>
+          <p>parungwa@byui.edu.com ✉</p>
+          <p class="phone">+2348066227378 📞</p>
+          <a class="direction" href="https://https://goo.gl/maps/M3kLcquLjVM7CDs86"> Our Location 📍</a>
+      </div>
+      <div class="footer_line">
+          <hr>
+          <br>
+          <p>
+              ©
 
-	<p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-	<hr>
-	<p><strong>DateTime</strong><br>Timestamp is based upon time since “Unix epoch” 1970-01-01T00:00:00Z (UTC),<br>i.e., January 1, 1970.</p>
-	<p>Current Page Load Timestamp: <span class="today"></span> (milliseconds)</p>
-      </main>
-      <footer>
-        <p> Aba City Chamber of commerce: No.24 Abak Close Abia State<br>
-          <a href="mailto:apostlepaulpaul@gmail.com">apostlepaulpaul@gmail.com</a>
-          <a href="tel:+806-622-7378">CLICK TO CALL</a>
-        
-          </p>
-        <p>&copy; <span id="copyYr"></span> Aba City Chambers of Commerce.Paul C. Arungwa | WDD 230 PROJECT | Last Updated: <span id="date1"></span></p>
-      </footer>
-      <script src="scripts/script.js"></script>
-      </body>
-      </html>
+              <span id="year"></span> 
+              Aba City Chamber of Commerce - 
+          <p>-Paul C Arungwa | Abia State - Nigeria - </p>
+          <div id="last-modified"></div>
+      </div>
+    </footer>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/lazyloading.js"></script>
+    <script src="scripts.js"></script>
+    <script src="scripts/mydate.js"></script>
+</body>
+</html>
+    

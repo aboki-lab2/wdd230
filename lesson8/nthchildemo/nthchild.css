@@ -1,0 +1,55 @@
+body {
+    padding: 1em 2em;
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    text-align: center;
+    line-height: 2;
+    background: rgb(121, 112, 144);
+  }
+  div {
+    width: 12em;
+    float: left;
+    margin-right: 2em;
+  }
+  hr {
+    clear: both;
+    padding-top: 1em;
+    border: 0;
+    border-bottom: 1px solid rgb(192, 18, 18);
+  }
+  
+  .one li:nth-child(1) {
+    background: rgb(19, 50, 91);
+  }
+  
+  .two :nth-child(2) :nth-child(3) {
+    background: rgb(222, 176, 193);
+  }
+  
+  .three :nth-child(odd) li:nth-child(-n+3) {
+    background: rgb(167, 10, 63);
+  }
+  
+  
+  
+  div:before {
+    font-family: monospace;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  
+  .one:before {
+    content: "li:nth-child(1)";
+  }
+  .two:before {
+    content: ":nth-child(2) :nth-child(3)";
+  }
+  .three:before {
+    content: ":nth-child(odd) li:nth-child(-n+3)";
+  }
+  

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
 
   * {
     margin: 0;
@@ -179,7 +178,7 @@ nav ul li a:hover {
 footer {
   background-color: #2b1c48;
   color: #2f29;
-  padding: 5px;
+  padding: 15px;
   text-align: center;
 }
 .footer_logo {
@@ -192,10 +191,10 @@ footer {
   color: whitesmoke;
 }
 .footer_line {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
-
+/* --------------------------------------discover page------------------------------------------- */
 .discover_main {
   padding: 5px;
 }
@@ -213,24 +212,24 @@ footer {
 .image_gallery img {
   margin-top: 20px;
 }
-.images {
+.img1 {
   width: 50%;
 }
 
 /* ---------------------------------------Join Page---------------------------------------------- */
 .join_page {
-  display: grid;
+  display: block;
 }
 .form_container {
   margin-top: 20px;
-  background-color: #180556;
+  background-color: #f4e9e3;
   margin-top: 15px;
-  border-radius:15px;
+  border-radius: 10px;
   padding: 10px;
  
 }
 .form_container h1 {
-  color: #5541d5;
+  color: #d59c41;
 }
 fieldset {
   display: flex;
@@ -240,7 +239,7 @@ fieldset {
   padding: 10px;
 }
 legend {
-  color: #481c35;
+  color: #1c4839;
   padding: 10px;
   font-size: 30px;
 }
@@ -251,7 +250,7 @@ label {
 label.top input {
   display: block;
   font-size: 1rem;
-  border: 1px solid #481c40;
+  border: 1px solid #1c4839;
   border-radius: 5px;
   padding: .75rem;
   width: 90%;
@@ -265,11 +264,11 @@ label.top input:required {
   background-color: #9f4900;
   color: #fefefe;
   font-family: "Poppins";
-  padding:18px;
+  padding: 21px;
   font-size: 18px;
   border-radius: 15px;
   margin: 10px 0;
-  border: rgb(18, 53, 84);
+  border: aliceblue;
   box-shadow: absolute;
 }
 .submitbtn:hover {
@@ -277,9 +276,7 @@ label.top input:required {
   color: #46d541;
 }
 .membership_container {
-  display: grid;
-  padding: 10px;
-  color:#4a009f
+  display: none;
 }
 
 .thankyou_container {
@@ -290,16 +287,15 @@ label.top input:required {
   padding: 50px;
   color: #fefefe;
   font-family: "Roboto";
-  background-color: #271c48;
+  background-color: #1c4839;
 }
 .thankyou_img {
-  width: 200px;
-  position: center;
+  width: 160px;
+  position: relative;
 }
 .thankyou_h1 {
   color: white;
   margin: 25px 0;
-  position: center;
 }
 .thankyou_p {
   font-size: 30px;
@@ -357,7 +353,7 @@ label.top input:required {
 .cards section {
   margin: 15px 0;
   padding: 15px;
-  box-shadow: 0 4px 8px 0 rgba(40, 36, 36, 0.2), 0 6px 20px 0 rgba(179, 77, 77, 0.892);
+  box-shadow: 0 4px 8px 0 rgba(162, 145, 145, 0.2), 0 6px 20px 0 rgba(179, 77, 77, 0.892);
 }
 
 .directory_container.list img{
@@ -372,29 +368,4 @@ label.top input:required {
 }
 .directory_container.list section:nth-child(even) {
   background-color: #c2b0a200;
-}
-#contact_info{
-  text-align: center;
-}
-#contact_info{
-  grid-row: 1/2;
-}
-
-#map h2{
-  display: none;
-}
-
-iframe{
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-#contact_info h2{
-  margin: 0.5em;
-}
-
-#contact_info p{
-  margin: 0;
-  padding: 0.75em;
 }
