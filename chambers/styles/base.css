@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  
 body {
     font-family: "Roboto";
 }
@@ -14,13 +10,18 @@ h2 {
 }
 /* -------------------------------header--------------------------------- */
 header {
-  background-color: blueviolet;
-  color:white;
-  padding: 1%;
+  background-color: #001242;
+  color: white;
+  width: 100%;
+  display: flex;
+  
 }
 .logo {
-  width: 100%;
-  margin-top: 15px;
+  width: auto;
+  height: 30px;
+  background-color: white;
+  margin: 32px 5px 10px 10px;
+  display: flex;
 }
 #formatted-date {
   display: block;
@@ -110,37 +111,38 @@ nav ul li a:hover {
   cursor: pointer;
 }
 /* events */
-.events {
-  background-color: #2e0f0812;
-  padding: 20px;
-  text-align: absolute;
+.event {
+  border:2px solid #000022;
+  background-color: #005E7C;
 }
-.events img {
-  width: 50%;
+.event img {
+  width:20%;
+  position: center;
+  left: 40px;
 }
-/* weather */
-.weather {
+
+.weather-box {
+  border: 1px solid #000022;
+  background-color: #2a18b3;
   text-align: center;
-  padding: 20px;
+  font-size: 1rem;
+  size: 20px;
 }
-.weather img {
+
+.weather-box h1 {
+  font-size: 1.5rem;
+  font-family: 'arial', sans-serif;
+}
+.weather-box  {
+  box-sizing: 1px;
+  
+}
+
+.weather-box img {
   width: 20%;
+  
 }
-.weather_line {
-  display: flex;
-  align-items: center;
-  justify-content: absolute;
-  gap: 20px;
-  padding: 15px;
-}
-.weather p {
-  font-size: 20px;
-  font-weight: lighter;
-}
-.weather hr {
-  margin-bottom: 10px;
-}
-/* news */
+  
 .news {
   text-align: center;
   background-color: #f4e9e3;
@@ -179,19 +181,39 @@ nav ul li a:hover {
 footer {
   background-color: #2b1c48;
   color: #2f29;
-  padding: 5px;
+  padding: 1px;
   text-align: center;
 }
+
 .footer_logo {
-  width: 20%;
-  position: center;
+  width: auto;
+  height: 40px;
+  float: left;
+}
+
+
+.info {
+   float: left;
+   margin-top: 5px;
+}
+.contact p {
+   font-size: 22px;
+   
+}
+   
+.footer_line {
+   display: flex;
+}
+.footer_logooo {
+  width: 10%;
+  position: absolute;
 }
 
 .direction {
   text-decoration: none;
   color: whitesmoke;
 }
-.footer_line {
+.footer_lineooo {
   margin-top: 5px;
 }
 
@@ -398,3 +420,4 @@ iframe{
   margin: 0;
   padding: 0.75em;
 }
+
