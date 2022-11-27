@@ -16,7 +16,6 @@
     <header>
         <img class="logo" src="images/logo.jpg" alt="logo">
         <h1>Thank You for visiting Aba City Chambers of Commerce</h1>
-        <div id="formatted-date">24/11/2022</div>
         <div class="social_media">
             <a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="15px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g>
@@ -45,9 +44,15 @@
             </ul>
         </nav>
         <div id="banner"></div>
+        <div class="todaysdate"></div>
+
     </header>
     <body>
         <main class="join_page">
+            <p class="n-visits">
+                <span class="label">Number of Visits: </span>
+                <span class="visits"></span>
+              </p>
             <div class="form_container">
                 <h1>📧 Send Us a Message</h1>
                 <form method="get" action="thanks.html">
@@ -139,6 +144,7 @@
     </footer>
     <script src="scripts/mybanner.js"></script>
     <script src="scripts/myscript.js"></script>
+    <script src="scripts/localstorage.js"></script>
     <script src="scripts/mydate.js"></script>
 </body>
 </html>
