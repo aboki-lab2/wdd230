@@ -1,7 +1,7 @@
-const request = ('images');
+const requestURL ='data.datajson';
 const cards = document.querySelector('.cards');
 
-fetch(requestimages)
+fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
