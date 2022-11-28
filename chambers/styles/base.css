@@ -122,8 +122,8 @@ nav ul li a:hover {
 }
 
 .weather-box {
-  border: 1px solid #000022;
-  background-color: #2a18b3;
+  border: 1px solid #d4d4e8;
+  background-color: #a8a5be;
   text-align: center;
   font-size: 1rem;
   size: 20px;
@@ -134,12 +134,12 @@ nav ul li a:hover {
   font-family: 'arial', sans-serif;
 }
 .weather-box  {
-  box-sizing: 1px;
+  box-sizing: 5px;
   
 }
 
 .weather-box img {
-  width: 20%;
+  width: 1%;
   
 }
   

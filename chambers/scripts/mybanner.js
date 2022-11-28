@@ -6,10 +6,10 @@ switch(currentDay) {
         banner = "";
         break;
     case 1:
-        banner = "🤝🏼 Come join us for the chamber meet and greet Wensday 07:00 p.m";
+        banner = "🤝🏼 Come join us for the chamber meet and greet on Wednesday 07:00 p.m";
         break; 
     case 2:
-        banner = "🤝🏼 Come join us for the chamber meet and greet Wensday 07:00 p.m";
+        banner = "🤝🏼 Come join us for the chamber meet and greet on Wednesday 07:00 p.m";
         break;
     case 3:
         banner = "";

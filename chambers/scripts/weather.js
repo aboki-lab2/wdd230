@@ -3,7 +3,7 @@ let windVelocityBox = document.querySelector(".windVelocity");
 let windChill = document.querySelector(".windChill");
 let weatherIcon = document.querySelector("#weather-icon");
 let figcaption = document.querySelector('#fig-caption');
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Mendoza&units=Imperial&appid=411161a5aa5688d0384164c4c6f8e3a0`;
+const url = `https://api.openweathermap.org/data/2.5/weather?q=Aba&units=Imperial&appid=eb6f17e912c2a30ca542bee41869d7ae`;
 
 function calculateWindChill(windVelocity, temperature){
    return (35.74 + (0.6215 * temperature) - (35.75 * (windVelocity**0.16)) + (0.4275 * temperature * (windVelocity**0.16)));
