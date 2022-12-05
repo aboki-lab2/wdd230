@@ -98,14 +98,11 @@
   .information {
       grid-template-columns: 1fr;
   }
-  .density img {
-      width: 600px;
-      margin-left: 100px;
-  }
+  
   .image_gallery h2 {
       padding-left: 40px;
   }
-  /* --------------------------------------Join Page------------------------------------------- */
+  
   .join {
       grid-column: 1/2;
       grid-row: 3/4;
@@ -113,14 +110,14 @@
   .join button {
       font-size: 20px;
   }
-  .join_page {
+  .mypage {
       padding: 20px 120px;
   }
-  /* -----------------------------------Thanks page--------------------------------------------- */
+  /* -----------------------------------Thankyou page--------------------------------------------- */
   .thankyou_button{
       margin-left: 41%;
   }
-  /* -------------------------------------directory-------------------------------------------- */
+  /* -------------------------------------my directory-------------------------------------------- */
   .directory_container.list section{
       display: grid;
       grid-template-columns: repeat(auto, minmax(350px, 450px));

@@ -48,48 +48,60 @@
 
     </header>
     <body>
-        <main class="join_page">
-            <p class="n-visits">
-                <span class="label">Number of Visits: </span>
+        <main class="mypage">
+            <p class="numberOf_visits">
+                <span class="label">Visited: </span>
                 <span class="visits"></span>
               </p>
             <div class="form_container">
                 <h1>📧 Send Us a Message</h1>
                 <form method="get" action="thanks.html">
                      <fieldset>
-                        <legend>Personal Information</legend>
-                        <label class="top">First Name* <input type="text" name="fname" required></label>
-                        <label class="top">Last Name* <input type="text" name="lname" required></label>
-                        <label class="top">Bussines Position Title <input type="text" minlength="7"></label>
-                        <label class="top">Email* <input type="email" name="email" placeholder="parungwa@byui.com" required></label>
-                        <label class="top" for="phone">Phone* <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" name="phone" placeholder="1234-454-567 (format)" required></label>
-                        <label class="top">Bussines Name <input type="text" name="bussines" placeholder="my company name, LLC"></label>
+                        <label><h2>Your personal details</h2> </label>
+                        <label class="content">First Name* <input type="text" name="fname"placeholder="first name" required></label>
+                        <label class="content">Last Name* <input type="text" name="lname"placeholder="last name" required></label>
+                        <label class="content">Business Position Title* <input type="text" placeholder="business position"minlength="11"required></label>
+                        <label class="content">Email* <input type="email" name="email" placeholder="parungwa@byui.com" placeholder="put company details here"required></label>
+                        <label class="content" for="phone">Phone* <input type="tel" pattern="[+]{1}[0-9]{3}[0-9]{4}[0-9]{3}[0-9]{3}" name="phone" placeholder="+2348066227378 (format)" required></label>
+                        <label class="content">Business Name* <input type="text" name="business" placeholder="type business name here"></label>
                     </fieldset>
                     <fieldset>
-                        <legend>Choose a Membership Level</legend>
-                        <label class="chose"><input type="radio" name="membership">NP Membership</label>
-                        <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
-                        <label class="chose"><input type="radio" name="membership">Silver Membership</label>
-                        <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+                        <label><h2>Select a Membership Level</h2></label>
+                        <label for="checkbox-nested-1">Non Profit Membership
+                            <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+                          </label>
+                          <label for="checkbox-nested-2">Bronze Membership
+                            <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+                          </label>
+                          <label for="checkbox-nested-3">Silver Membership
+                            <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+                          </label>
+                          <label for="checkbox-nested-4">Gold Membership
+                            <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+                          </label> 
+    
+                        
                     </fieldset>
                     <fieldset>
-                        <legend>Bussines Description</legend>
-                        <textarea name="area" id="description" rows="10"></textarea>
+                        <h2>Describe Your Business</h2>
+                        <textarea name="area" id="description" rows="8"></textarea>
                     </fieldset>
                     <input type="hidden" id="full.datev" name="full-date" value="">
-                    <input type="submit" value="Send my appication" class="submitbtn">
+                    <input type="submit" value="Send my application" class="submitbtn">
                 </form>
             </div>
-            <div class="membership_container">
+            <div class="membershiptype_container">
                 <h1 class="member">Instructions to apply</h1>
-                <div class="npmember">
-                    <h2>NP Membership</h2>
+                <div class="nonprofitmember">
+                    <h2>Non Profit Membership</h2>
                     <ul>
-                        <li>NP Membership. This is strictly for nonprofit organizations. It does not attract any payment.</li>
+                        <li>Non Profit Membership. This is strictly for nonprofit organizations. It does not attract any payment.</li>
                         <li>Please be advised that you would be required to show evidence that you are nonprofit organization.</li>
                     </ul>
                 </div>
-                <div class="bronzemember">
+
+
+                <div class="bronzemembership">
                     <h2>Bronze Membership</h2>
                     <ul>
                         <li> As bronze member, you have a step higher that the former</li>
@@ -98,7 +110,7 @@
                         <li>Price: N20,000.00 monthly</li>
                     </ul>
                 </div>
-                <div class="silvermember">
+                <div class="silvermembership">
                     <h2>Silver Membership</h2>
                     <ul>
                         <li> As silver member, you qaulify for a higher stake in the company business</li>
@@ -107,7 +119,7 @@
                         <li>Price: N40,000.00 monthly</li>
                     </ul>
                 </div>
-                <div class="goldmember">
+                <div class="goldmembership">
                     <h2>Gold Membership</h2>
                     <ul>
                         <li> As bronze member, you have a step higher that the former</li>
@@ -129,7 +141,7 @@
             <p>#5 High Court Road Osisioma Aba</p>
             <p>parungwa@byui.edu.com ✉</p>
             <p class="phone">+2348066227378 📞</p>
-            <a class="direction" href="https://https://goo.gl/maps/M3kLcquLjVM7CDs86"> Our Location 📍</a>
+            <a class="direction" href="https://goo.gl/maps/M3kLcquLjVM7CDs86"> Our Location 📍</a>
         </div>
         <div class="footer_line">
             <hr>
@@ -139,7 +151,7 @@
                 <span id="year"></span> 
                 Aba City Chamber of Commerce
             <p>Paul C Arungwa | Abia State - Nigeria</p>
-            <p id="updated-el">Last Updated: <span id="lastupdate">11/26/2022 17:34:08</span></p>
+            <p id="updated-now">Last Updated: <span id="lastupdate">11/26/2022 17:34:08</span></p>
             <div id="lastModified"></div>
         </div>
     </footer>
