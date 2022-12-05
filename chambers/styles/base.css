@@ -37,7 +37,7 @@ header {
   padding: 10px;
   text-align: center;
 }
-label.top input:required {
+label.content input:required {
   border-left: #9f4900 solid 5px;
 }
 .submitbtn {
